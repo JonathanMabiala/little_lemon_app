@@ -2,8 +2,7 @@ import { View, Text, ScrollView } from "react-native";
 
 const WelcomeScreen = () => {
   return (
-    <View style={{ flex: 0.82 }}>
-      <ScrollView>
+      <ScrollView indicatorStyle={"white"} style={{flex:1}}>
         <Text
           style={{
             padding: 40,
@@ -28,7 +27,7 @@ const WelcomeScreen = () => {
           love to hear more about your experience with us!
         </Text>
       </ScrollView>
-    </View>
+   
   );
 };
 export default WelcomeScreen;
